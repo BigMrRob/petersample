@@ -1,0 +1,18 @@
+.ul {
+  list-style-type: none;
+}
+
+.li {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.transactionHeaders {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 24px;
+}
+
+.transactionText {
+  font-size: 20px;
+}
